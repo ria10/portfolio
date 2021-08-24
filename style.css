@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(99,99,99);
+    color: rgb(213,214,212);
+    font-family: 'Cormorant Garamond';
+}
+
+#name {
+    font-family: 'Crimson Text'
+}
