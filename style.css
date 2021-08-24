@@ -5,5 +5,18 @@ body {
 }
 
 #name {
-    font-family: 'Crimson Text'
+    font-family: 'Crimson Text';
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 60px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+nav {
+    color: lightskyblue;
+    
+}
+
+a:hover {
+    color: lightpink;
 }
