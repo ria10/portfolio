@@ -45,8 +45,10 @@ nav > div.vl {
 }
 
 .main {
+    display:block;
     text-align: center;
-    /* margin: auto; */
+    position:relative;
+    margin:auto;
 }
 
 /* light and dark mode button, still need to edit border and activate it */
