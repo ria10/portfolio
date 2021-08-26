@@ -1,22 +1,63 @@
 body {
-    background-color: rgb(99,99,99);
-    color: rgb(213,214,212);
-    font-family: 'Cormorant Garamond';
+    background-color: rgb(213,214,212);
+    color: rgb(99, 99, 99);
+    font-family: 'Quattrocentro';
 }
 
 #name {
-    font-family: 'Crimson Text';
-    letter-spacing: 5px;
-    text-align: center;
+    font-family: 'Merriweather';
+    /* letter-spacing: 2px; */
+    justify-content: center;
     font-size: 60px;
-    background-color: rgba(255,255,255,0.7);
+    /* text-align: center; */
+
 }
 
-nav {
-    color: lightskyblue;
+.navbar {
+    color: rgb(99,99,99);
+    /* text-align: left; */
+    height: 100%;
+    width: 160px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
     
 }
 
+.navbar a {
+    color: rgb(99,99,99);
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+}
+
 a:hover {
-    color: lightpink;
+    color: whitesmoke;
+}
+
+nav > div.vl {
+    border-left: 1px solid rgb(99, 99, 99);
+    height: 550px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main {
+    text-align: center;
+    /* margin: auto; */
+}
+
+/* light and dark mode button, still need to edit border and activate it */
+.btn-circle {
+    /* display:inline-block; */
+    width: 2.5em;
+    height:2.5em;
+    /* border-radius: 2.5em; */
+    margin-left: 40px;
+    text-align: center;
+    background: rgb(213,214,212);
+    /* border:0; */
+
 }
